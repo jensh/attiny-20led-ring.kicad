@@ -1,0 +1,470 @@
+EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:LED20RingTiny-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ATTiny 20 LEDs Ring"
+Date ""
+Rev ""
+Comp "Jens Hauke"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY45-P IC1
+U 1 1 58DBD064
+P 7500 3950
+F 0 "IC1" H 6350 4350 50  0000 C CNN
+F 1 "ATTINY45-P" H 8500 3550 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 8500 3950 50  0001 C CIN
+F 3 "" H 7500 3950 50  0000 C CNN
+	1    7500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small_ALT D0
+U 1 1 58DBD82F
+P 6550 1350
+F 0 "D0" H 6500 1475 50  0000 L CNN
+F 1 "LED" H 6375 1250 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 1350 50  0001 C CNN
+F 3 "" V 6550 1350 50  0000 C CNN
+	1    6550 1350
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D1
+U 1 1 58DBDCEE
+P 6550 1550
+F 0 "D1" H 6500 1675 50  0000 L CNN
+F 1 "LED" H 6375 1450 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 1550 50  0001 C CNN
+F 3 "" V 6550 1550 50  0000 C CNN
+	1    6550 1550
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D2
+U 1 1 58DBDD1E
+P 6550 1750
+F 0 "D2" H 6500 1875 50  0000 L CNN
+F 1 "LED" H 6375 1650 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 1750 50  0001 C CNN
+F 3 "" V 6550 1750 50  0000 C CNN
+	1    6550 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D3
+U 1 1 58DBDF2A
+P 6550 1950
+F 0 "D3" H 6500 2075 50  0000 L CNN
+F 1 "LED" H 6375 1850 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 1950 50  0001 C CNN
+F 3 "" V 6550 1950 50  0000 C CNN
+	1    6550 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D4
+U 1 1 58DBDF63
+P 6550 2150
+F 0 "D4" H 6500 2275 50  0000 L CNN
+F 1 "LED" H 6375 2050 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 2150 50  0001 C CNN
+F 3 "" V 6550 2150 50  0000 C CNN
+	1    6550 2150
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D5
+U 1 1 58DBDF8D
+P 6550 2350
+F 0 "D5" H 6500 2475 50  0000 L CNN
+F 1 "LED" H 6375 2250 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 2350 50  0001 C CNN
+F 3 "" V 6550 2350 50  0000 C CNN
+	1    6550 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D6
+U 1 1 58DBDFCC
+P 6550 2550
+F 0 "D6" H 6500 2675 50  0000 L CNN
+F 1 "LED" H 6375 2450 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 2550 50  0001 C CNN
+F 3 "" V 6550 2550 50  0000 C CNN
+	1    6550 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D7
+U 1 1 58DBDFFC
+P 6550 2750
+F 0 "D7" H 6500 2875 50  0000 L CNN
+F 1 "LED" H 6375 2650 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 2750 50  0001 C CNN
+F 3 "" V 6550 2750 50  0000 C CNN
+	1    6550 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D8
+U 1 1 58DBE02F
+P 6550 2950
+F 0 "D8" H 6500 3075 50  0000 L CNN
+F 1 "LED" H 6375 2850 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 2950 50  0001 C CNN
+F 3 "" V 6550 2950 50  0000 C CNN
+	1    6550 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D9
+U 1 1 58DBE06B
+P 6550 3150
+F 0 "D9" H 6500 3275 50  0000 L CNN
+F 1 "LED" H 6375 3050 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 6550 3150 50  0001 C CNN
+F 3 "" V 6550 3150 50  0000 C CNN
+	1    6550 3150
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small_ALT D10
+U 1 1 58DBE0C9
+P 5150 3150
+F 0 "D10" H 5100 3275 50  0000 L CNN
+F 1 "LED" H 4975 3050 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 3150 50  0001 C CNN
+F 3 "" V 5150 3150 50  0000 C CNN
+	1    5150 3150
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D11
+U 1 1 58DBE195
+P 5150 2950
+F 0 "D11" H 5100 3075 50  0000 L CNN
+F 1 "LED" H 4975 2850 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 2950 50  0001 C CNN
+F 3 "" V 5150 2950 50  0000 C CNN
+	1    5150 2950
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D12
+U 1 1 58DBE1D8
+P 5150 2750
+F 0 "D12" H 5100 2875 50  0000 L CNN
+F 1 "LED" H 4975 2650 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 2750 50  0001 C CNN
+F 3 "" V 5150 2750 50  0000 C CNN
+	1    5150 2750
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D13
+U 1 1 58DBE218
+P 5150 2550
+F 0 "D13" H 5100 2675 50  0000 L CNN
+F 1 "LED" H 4975 2450 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 2550 50  0001 C CNN
+F 3 "" V 5150 2550 50  0000 C CNN
+	1    5150 2550
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D14
+U 1 1 58DBE263
+P 5150 2350
+F 0 "D14" H 5100 2475 50  0000 L CNN
+F 1 "LED" H 4975 2250 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 2350 50  0001 C CNN
+F 3 "" V 5150 2350 50  0000 C CNN
+	1    5150 2350
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D15
+U 1 1 58DBE2AB
+P 5150 2150
+F 0 "D15" H 5100 2275 50  0000 L CNN
+F 1 "LED" H 4975 2050 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 2150 50  0001 C CNN
+F 3 "" V 5150 2150 50  0000 C CNN
+	1    5150 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D16
+U 1 1 58DBE379
+P 5150 1950
+F 0 "D16" H 5100 2075 50  0000 L CNN
+F 1 "LED" H 4975 1850 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 1950 50  0001 C CNN
+F 3 "" V 5150 1950 50  0000 C CNN
+	1    5150 1950
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D17
+U 1 1 58DBE3CB
+P 5150 1750
+F 0 "D17" H 5100 1875 50  0000 L CNN
+F 1 "LED" H 4975 1650 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 1750 50  0001 C CNN
+F 3 "" V 5150 1750 50  0000 C CNN
+	1    5150 1750
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D18
+U 1 1 58DBE41C
+P 5150 1550
+F 0 "D18" H 5100 1675 50  0000 L CNN
+F 1 "LED" H 4975 1450 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 1550 50  0001 C CNN
+F 3 "" V 5150 1550 50  0000 C CNN
+	1    5150 1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L LED_Small_ALT D19
+U 1 1 58DBE472
+P 5150 1350
+F 0 "D19" H 5100 1475 50  0000 L CNN
+F 1 "LED" H 4975 1250 50  0001 L CNN
+F 2 "LEDs:LED_0805" V 5150 1350 50  0001 C CNN
+F 3 "" V 5150 1350 50  0000 C CNN
+	1    5150 1350
+	0    -1   1    0   
+$EndComp
+Text Notes 5400 1250 0    60   ~ 0
+0
+Text Notes 5400 1450 0    60   ~ 0
+1
+Text Notes 5400 1650 0    60   ~ 0
+2
+Text Notes 5400 1850 0    60   ~ 0
+3
+Text Notes 5400 2050 0    60   ~ 0
+4
+Text Notes 5400 2250 0    60   ~ 0
+0
+Text Notes 5400 2450 0    60   ~ 0
+2
+Text Notes 5400 2650 0    60   ~ 0
+4
+Text Notes 5400 2850 0    60   ~ 0
+1
+Text Notes 5400 3050 0    60   ~ 0
+3
+Text Notes 5400 3250 0    60   ~ 0
+0
+$Comp
+L GND #PWR01
+U 1 1 58DC020C
+P 9150 4600
+F 0 "#PWR01" H 9150 4350 50  0001 C CNN
+F 1 "GND" H 9150 4450 50  0000 C CNN
+F 2 "" H 9150 4600 50  0000 C CNN
+F 3 "" H 9150 4600 50  0000 C CNN
+	1    9150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 58DC02AD
+P 9150 3700
+F 0 "#PWR02" H 9150 3550 50  0001 C CNN
+F 1 "+3.3V" H 9150 3840 50  0000 C CNN
+F 2 "" H 9150 3700 50  0000 C CNN
+F 3 "" H 9150 3700 50  0000 C CNN
+	1    9150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C1
+U 1 1 58DC0840
+P 9150 3950
+F 0 "C1" H 9160 4020 50  0000 L CNN
+F 1 "10µ" H 9160 3870 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1206_Pol" H 9150 3950 50  0001 C CNN
+F 3 "" H 9150 3950 50  0000 C CNN
+	1    9150 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1250 6550 1250
+Wire Wire Line
+	5150 1450 6550 1450
+Wire Wire Line
+	5150 1650 6550 1650
+Wire Wire Line
+	5150 1850 6550 1850
+Wire Wire Line
+	5150 2050 6550 2050
+Wire Wire Line
+	5150 2250 6550 2250
+Wire Wire Line
+	5150 2450 6550 2450
+Wire Wire Line
+	5150 2650 6550 2650
+Wire Wire Line
+	5150 2850 6550 2850
+Wire Wire Line
+	5150 3050 6550 3050
+Wire Wire Line
+	5150 3250 6550 3250
+Wire Wire Line
+	6000 3800 6150 3800
+Wire Wire Line
+	6000 1850 6000 3800
+Connection ~ 6000 3050
+Connection ~ 6000 1850
+Wire Wire Line
+	6100 3700 6150 3700
+Wire Wire Line
+	6100 1450 6100 3700
+Connection ~ 6100 2850
+Connection ~ 6100 1450
+Wire Wire Line
+	5900 3900 6150 3900
+Wire Wire Line
+	5900 2050 5900 3900
+Connection ~ 5900 2650
+Connection ~ 5900 2050
+Wire Wire Line
+	5800 4000 6150 4000
+Wire Wire Line
+	5800 1250 5800 4000
+Connection ~ 5800 3250
+Connection ~ 5800 2250
+Connection ~ 5800 1250
+Wire Wire Line
+	5700 4100 6150 4100
+Wire Wire Line
+	5700 1650 5700 4100
+Connection ~ 5700 2450
+Connection ~ 5700 1650
+Wire Wire Line
+	9150 4600 9150 4050
+Wire Wire Line
+	9150 3850 9150 3700
+Wire Wire Line
+	9150 3700 8850 3700
+$Comp
+L SW_Push SW1
+U 1 1 58DC1121
+P 7350 4550
+F 0 "SW1" H 7400 4650 50  0000 L CNN
+F 1 "SW_Push" H 7350 4490 50  0001 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 7350 4750 50  0001 C CNN
+F 3 "" H 7350 4750 50  0000 C CNN
+	1    7350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4200 6100 4200
+Wire Wire Line
+	6100 4200 6100 4550
+Wire Wire Line
+	6100 4550 7150 4550
+Wire Wire Line
+	7550 4550 9150 4550
+Connection ~ 9150 4550
+Wire Wire Line
+	8850 4200 9150 4200
+Connection ~ 9150 4200
+$EndSCHEMATC
