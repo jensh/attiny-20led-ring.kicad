@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hauke/kicad/LED20RingTiny/LED20RingTiny.sch)
-    (date "Wed 29 Mar 2017 06:16:42 PM CEST")
+    (date "Wed 29 Mar 2017 07:36:03 PM CEST")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref IC1)
       (value ATTINY45-P)
-      (footprint Housings_DIP:DIP-8_W7.62mm_LongPads)
+      (footprint Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm)
       (libsource (lib atmel) (part ATTINY45-P))
       (sheetpath (names /) (tstamps /))
       (tstamp 58DBD064))
@@ -143,11 +143,13 @@
       (tstamp 58DBE472))
     (comp (ref C1)
       (value 10µ)
+      (footprint SMD_Packages:SMD-1206_Pol)
       (libsource (lib device) (part CP_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 58DC0840))
     (comp (ref SW1)
       (value SW_Push)
+      (footprint Buttons_Switches_THT:SW_PUSH_6mm)
       (libsource (lib switches) (part SW_Push))
       (sheetpath (names /) (tstamps /))
       (tstamp 58DC1121)))
@@ -207,10 +209,10 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical atmel)
       (uri /usr/share/kicad/library/atmel.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical switches)
       (uri /usr/share/kicad/library/switches.lib)))
   (nets
