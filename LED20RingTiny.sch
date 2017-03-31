@@ -439,18 +439,18 @@ Wire Wire Line
 Connection ~ 5700 2450
 Connection ~ 5700 1650
 Wire Wire Line
-	9150 4600 9150 4050
+	9150 4050 9150 4600
 Wire Wire Line
 	9150 3850 9150 3700
 Wire Wire Line
-	9150 3700 8850 3700
+	8850 3700 9500 3700
 $Comp
 L SW_Push SW1
 U 1 1 58DC1121
 P 7350 4550
 F 0 "SW1" H 7400 4650 50  0000 L CNN
 F 1 "SW_Push" H 7350 4490 50  0001 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 7350 4750 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_KMR2" H 7350 4750 50  0001 C CNN
 F 3 "" H 7350 4750 50  0000 C CNN
 	1    7350 4550
 	1    0    0    -1  
@@ -464,7 +464,23 @@ Wire Wire Line
 Wire Wire Line
 	7550 4550 9150 4550
 Connection ~ 9150 4550
-Wire Wire Line
-	8850 4200 9150 4200
 Connection ~ 9150 4200
+Connection ~ 9150 3700
+$Comp
+L Battery_Cell BT1
+U 1 1 58DE28DD
+P 9500 4000
+F 0 "BT1" H 9600 4100 50  0000 L CNN
+F 1 "Battery_Cell" H 9600 4000 50  0000 L CNN
+F 2 "Connectors:CR2032V" V 9500 4060 50  0001 C CNN
+F 3 "" V 9500 4060 50  0000 C CNN
+	1    9500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4200 9500 4200
+Wire Wire Line
+	9500 4200 9500 4100
+Wire Wire Line
+	9500 3700 9500 3800
 $EndSCHEMATC
