@@ -3,7 +3,7 @@
   (general
     (links 49)
     (no_connects 0)
-    (area 157.612014 86.894999 182.472001 116.686001)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 10)
     (tracks 161)
@@ -13,6 +13,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "ATTiny 20 LEDs Ring")
+    (date 2017-03-31)
+    (rev 1.0)
+    (company "Jens Hauke")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -64,7 +71,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010e0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -85,9 +92,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")

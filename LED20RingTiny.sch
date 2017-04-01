@@ -91,8 +91,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ATTiny 20 LEDs Ring"
-Date ""
-Rev ""
+Date "2017-03-31"
+Rev "1.0"
 Comp "Jens Hauke"
 Comment1 ""
 Comment2 ""
