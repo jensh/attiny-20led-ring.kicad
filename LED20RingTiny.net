@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /home/hauke/kicad/LED20RingTiny/LED20RingTiny.sch)
-    (date "Fri 31 Mar 2017 12:11:11 PM CEST")
+    (date "Thu 27 Apr 2017 03:53:27 PM CEST")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "ATTiny 20 LEDs Ring")
         (company "Jens Hauke")
-        (rev)
-        (date)
+        (rev 1.0)
+        (date 2017-03-31)
         (source LED20RingTiny.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))

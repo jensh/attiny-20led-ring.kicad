@@ -483,4 +483,8 @@ Wire Wire Line
 	9500 4200 9500 4100
 Wire Wire Line
 	9500 3700 9500 3800
+Text Notes 6850 1850 0    157  ~ 0
+ATTiny 20 LEDs Ring
+Text Notes 7450 2200 0    118  ~ 0
+2017 by Jens Hauke\n
 $EndSCHEMATC
